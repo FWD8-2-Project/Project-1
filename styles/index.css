@@ -1,3 +1,28 @@
+
+body {
+    margin:0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+div {
+    font-family: Tahoma;
+    font-size: small;
+}
+
+.header-info {
+    display: inline-block;
+}
+
+.header-sub-info {
+    color: darkgray;
+}
+
+.contact-link:hover {
+    text-decoration: none;
+    color: red;
+}
+
 .header {
     border-top: 4px solid gray;
     display: flex;
@@ -84,3 +109,4 @@ ul li a {
 ul li a:hover {
     color: red;
 }
+
