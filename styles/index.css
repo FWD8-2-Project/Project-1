@@ -65,4 +65,22 @@
         flex-direction: column;
         align-items: center;
     }
-} 
+}
+
+.backgroundfootertop {
+    background-color: #191919;
+    height: 30%;
+}
+.backgroundfooterbutton {
+    background-color: #0d0d0d;
+    height: 70%;
+}
+
+ul li a {
+    color: #868686;
+    margin: -5px 0 -5px 0;
+}
+
+ul li a:hover {
+    color: red;
+}
